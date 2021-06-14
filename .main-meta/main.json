@@ -4,25 +4,25 @@
    "content":{
       "metaDataVersion":"1.0.0",
       "name":"com.microchip.mplabx.project.pic24fj64gu205-curiosity-nano-usb-clc-adc",
-      "version":"x.x.x",
-      "displayName":"xxxxxxxxxxxxxxx",
+      "version":"1.0.0",
+      "displayName":"PIC24FJ64GU205 Curiosity Nano Development Board - USB ADC CLC Demo",
       "projectName":"pic24fj64gu205-curiosity-nano-usb-clc-adc",
-      "shortDescription":"xxxxxxxxxxxxxxx",
+      "shortDescription":"This is USB CLC and ADC demo which runs on PIC24FJ64GU205 Curiosity Nano Development Board",
       "ide":{
          "name":"MPLABX",
-         "semverRange":">=5.40.0"
+         "semverRange":">=5.50.0"
       },
       "compiler":{
          "name":"XC16",
-         "semverRange":"^1.50.0"
+         "semverRange":"^1.70.0"
       },
       "dfp":{
-         "name":"xxxxxxxxxxxxxxx",
-         "semverRange":">=x.x.x"
+         "name":"PIC24F-GP-GU_DFP",
+         "semverRange":">=1.0.59"
       },
 	  "configurator": {
          "name": "MCC",
-         "semverRange": ">=4.0.1"
+         "semverRange": ">=4.1.0"
       },
       "device":{
          "metaDataVersion":"1.0.0",
@@ -30,17 +30,20 @@
          "content":{
             "metaDataVersion":"1.0.0",
             "category":"com.microchip.device",
-            "name":"xxxxxxxxxxxxxxx",
+            "name":"PIC24FJ64GU205",
             "versionRange":"*"
          }
       },
       "peripherals":[
-         "DMA",
-         "CAN"
+         "ADC",
+         "CLC",
+         "USB"
       ],
       "keywords":[
-         "DMA",
-         "Sensor"
+         "PIC24F",
+         "Debounce",
+         "Analog",
+         "Terminal"
       ]
    }
 }
