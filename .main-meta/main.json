@@ -40,10 +40,9 @@
          "USB"
       ],
       "keywords":[
-         "PIC24F",
-         "Debounce",
-         "Analog",
-         "Terminal"
+         "ADC",
+         "USB",
+         "CLC"
       ]
    }
 }

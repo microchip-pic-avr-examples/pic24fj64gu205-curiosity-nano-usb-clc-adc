@@ -71,7 +71,6 @@ enum {
 int main(void)
 {    
     SYSTEM_Initialize();
-    _CNPUA12 = 1;
     consoleState = PRINT_WELCOME;
     LED_Enable();
     (void)TIMER_SetConfiguration(TIMER_CONFIGURATION_1MS);
