@@ -1,0 +1,48 @@
+{
+   "metaDataVersion":"1.0.0",
+   "category":"com.microchip.ide.project",
+   "content":{
+      "metaDataVersion":"1.0.0",
+      "name":"com.microchip.mplabx.project.pic24fj64gu205-curiosity-nano-usb-clc-adc",
+      "version":"1.0.0",
+      "displayName":"PIC24FJ64GU205 Curiosity Nano Development Board - USB ADC CLC Demo",
+      "projectName":"pic24fj64gu205-curiosity-nano-usb-clc-adc",
+      "shortDescription":"This is USB CLC and ADC demo which runs on PIC24FJ64GU205 Curiosity Nano Development Board",
+      "ide":{
+         "name":"MPLABX",
+         "semverRange":">=5.50.0"
+      },
+      "compiler":{
+         "name":"XC16",
+         "semverRange":"^1.70.0"
+      },
+      "dfp":{
+         "name":"PIC24F-GP-GU_DFP",
+         "semverRange":">=1.0.59"
+      },
+	  "configurator": {
+         "name": "MCC",
+         "semverRange": ">=4.1.0"
+      },
+      "device":{
+         "metaDataVersion":"1.0.0",
+         "category":"com.microchip.portal.contentRef",
+         "content":{
+            "metaDataVersion":"1.0.0",
+            "category":"com.microchip.device",
+            "name":"PIC24FJ64GU205",
+            "versionRange":"*"
+         }
+      },
+      "peripherals":[
+         "ADC",
+         "CLC",
+         "USB"
+      ],
+      "keywords":[
+         "ADC",
+         "USB",
+         "CLC"
+      ]
+   }
+}
